@@ -1,21 +1,14 @@
 {
-  "name": "fitnessevolution",
+  "name": "packagename",
   "version": "1.0.0",
-  "description": "It is a fitness meeting scheduling app.",
+  "description": "package description",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ashri024/Fitness-Evolution.git"
+    "dev": "nodemon server.js",
+    "start":"node server.js"
   },
   "author": "Ashri Mallick",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ashri024/Fitness-Evolution/issues"
-  },
-  "homepage": "https://github.com/Ashri024/Fitness-Evolution#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
